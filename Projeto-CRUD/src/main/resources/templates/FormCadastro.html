@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Interface</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1> Cadastros de Produtos</h1>
+<h2>Por Favor, Preencha o formulário abaixo.</h2><br />
+
+<form method="post">
+
+    <!-- DADOS CAdastrais-->
+    <fieldset>
+        <legend>Cadastro Produto</legend>
+        <table cellspacing="15">
+            <tr>
+                <td>
+                    <label for="nome">Nome: </label>
+                    <input type="text" required="required" placeholder="Nome do Produto">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Description">Descrição: </label>
+                    <input type="text" placeholder="Descrição">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="value">Valor: </label>
+                    <input type="number" required="required" placeholder="EX: 30.00">
+                </td>
+        </table>
+    </fieldset>
+    <br />
+    <button type="submit">Salvar</button>
+</form>
+
+</body>
+</html>
